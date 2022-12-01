@@ -128,6 +128,7 @@
 
 .part3 p {
     font-size: 1.3rem;
+    text-align: left;
 }
 
 .part3 ul {
@@ -155,6 +156,7 @@
     line-height: 1.4rem;
     font-weight: 400;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .expand a {
@@ -180,37 +182,29 @@
     justify-content: space-between;
 }
 
+
 .part4 {
-    background-color: #f7f9fa;
-    height: 7rem;
-    margin: 4rem 0 5rem 0;
-    padding: 0 1.6rem 0 1.6rem;
     display: flex;
-    justify-content: space-between;
-}
-
-.box figure {
-    width: 20%;
-
-}
-
-.box figure img {
-    width: 100%;
-    border: 2px solid #f7f9fa;
-    border-radius: 50%;
-}
-
-.box {
+    gap: 3rem;
+    justify-content: space-around;
     background-color: #f7f9fa;
-    width: 300px;
+}
+
+.boxes {
+    margin-left: 30px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    gap: 10px
+    font-weight: 700;
 }
 
-.box p {
-    font-weight: 700;
+.boxes figure {
+    width: 10%;
+
+}
+
+.boxes img {
+    width: 100%;
+    height: auto;
 }
 
 .part5 {
@@ -228,4 +222,219 @@
 
 figcaption {
     font-weight: 700;
+}
+
+
+
+.part6 {
+    background-color: #f7f9fa;
+    height: 450px;
+}
+
+.part6 h2 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.lists {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    margin: 10px 40px 40px 30px;
+}
+
+.lists h3 {
+    margin-bottom: 20px;
+}
+
+.lists dt {
+    color: blue;
+    font-weight: 800;
+
+}
+
+.lists dd {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #6a6f73;
+}
+
+#explore {
+    border: 1px solid black;
+    padding: 1rem;
+    color: black;
+    font-weight: 600;
+    margin: 50px 10px 0 40px;
+
+}
+
+.part7 h2 {
+    margin-top: 110px;
+    margin-inline: auto;
+}
+
+.part7 h2,
+p {
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.box0 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.part8 {
+    margin-top: 130px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7rem;
+    margin-bottom: 80px;
+
+}
+
+
+
+.talking {
+
+    width: 600px;
+}
+
+.business figure {
+
+    width: 70%;
+    height: 100%;
+}
+
+.business figure img {
+    width: 100%;
+}
+
+.business h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.business ul {
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.business li {
+    margin-bottom: 10px;
+    font-size: 19px;
+
+}
+
+
+.talking {
+    width: 30%;
+}
+
+.talking img {
+    width: 100%;
+}
+
+.business span {
+    border: 2px solid black;
+    padding: 0.8rem;
+
+
+}
+
+.get a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+
+}
+
+#get {
+    background-color: black;
+
+}
+
+#get a {
+    color: white;
+}
+
+
+.part9 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.right {
+    padding-top: 80px;
+
+
+
+}
+
+.right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.right span {
+
+    font-size: 19px;
+    line-height: 1.5rem
+}
+
+.right button {
+    margin-top: 10px;
+    padding: 0.8rem;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.right a {
+    color: white;
+    font-size: 14px;
+}
+
+footer {
+    width: 99%;
+    height: 300px;
+    color: white;
+    background-color: #1c1d1f;
+    position: relative;
+}
+
+.foot {
+    margin-top: 100px;
+    display: flex;
+    gap: 10rem;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    line-height: 2rem;
+}
+
+.foot ul {
+    list-style-type: none;
+
+}
+
+.language {
+    margin-top: 30px;
+    margin-right: 70px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid white;
 }
